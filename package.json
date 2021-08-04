@@ -1,5 +1,5 @@
 {
-  "name": "quasar-app-extension-simple-auth",
+  "name": "@gastiennelea/quasar-app-extension-simple-auth",
   "version": "0.0.1",
   "description": "A Quasar App Extension",
   "author": "Gastienne",
@@ -22,5 +22,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "validator": "^13.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
