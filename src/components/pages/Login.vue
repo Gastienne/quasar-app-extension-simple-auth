@@ -98,7 +98,7 @@ export default {
         router.replace('protected-route')
       }).catch((error) => {
         $q.notify({
-          message: error.response.data.error || error.message,
+          message: error.response?.data.error || error.message,
           color: 'red',
           icon: 'error'
         })
