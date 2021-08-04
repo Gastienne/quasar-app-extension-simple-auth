@@ -1,13 +1,13 @@
 import axios from 'axios'
 import prompts from 'app/quasar.extensions.json'
-import {Cookies} from "quasar";
+import { Cookies } from "quasar";
 
 export default ({ app, router, Vue }) => {
 
     // Set Route guard
     router.beforeEach((to, from, next) => {
         const record = to.matched.find((record) => record.meta.auth)
-        console.log(! Cookies.get('authorization_token'))
+
         if (record && to.name !== 'login' && ! Cookies.get('authorization_token')) next({ name: 'login' })
         else if (Cookies.get('authorization_token') && to.name === 'login') {
             router.back()
