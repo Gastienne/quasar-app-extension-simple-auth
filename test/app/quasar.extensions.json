@@ -1,3 +1,6 @@
 {
-  "simple-auth": {}
+  "simple-auth": {
+    "apiUrl": "https://reqres.in",
+    "loginRoute": "/api/login"
+  }
 }

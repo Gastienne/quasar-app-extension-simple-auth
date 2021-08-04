@@ -40,5 +40,18 @@
  */
 
 module.exports = function () {
-  return []
+  return [
+      {
+          name: 'apiUrl',
+          type: 'input',
+          message: 'Url for API server',
+          default: 'https://reqres.in'
+      },
+      {
+          name: 'loginRoute',
+          type: 'input',
+          message: 'Route for user login',
+          default: '/api/login'
+      },
+  ]
 }
