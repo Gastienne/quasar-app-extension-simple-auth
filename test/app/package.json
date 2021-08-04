@@ -22,7 +22,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
     "eslint-webpack-plugin": "^2.4.0",
-    "quasar-app-extension-simple-auth": "file://home/lelouch/Labs/simple-auth"
+    "quasar-app-extension-simple-auth": "^0.0.1"
   },
   "browserslist": [
     "last 10 Chrome versions",
