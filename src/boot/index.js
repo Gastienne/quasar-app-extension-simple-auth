@@ -2,7 +2,7 @@ import axios from 'axios'
 import prompts from 'app/quasar.extensions.json'
 import { Cookies } from "quasar";
 
-export default ({ app, router, Vue }) => {
+export default ({ app, router }) => {
 
     // Set Route guard
     router.beforeEach((to, from, next) => {
