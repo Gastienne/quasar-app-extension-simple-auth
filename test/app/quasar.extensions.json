@@ -1,5 +1,5 @@
 {
-  "simple-auth": {
+  "@gastiennelea/simple-auth": {
     "apiUrl": "https://reqres.in",
     "loginRoute": "/api/login"
   }

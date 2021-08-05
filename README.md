@@ -5,7 +5,7 @@ simple-auth is a quasar app extension providing a simple example of login with a
 
 # Install
 ```bash
-quasar ext add simple-auth
+quasar ext add @gastiennelea/simple-auth
 ```
 Quasar CLI will retrieve it from the NPM registry and install the extension to your project.
 
@@ -15,7 +15,7 @@ You will be prompt to provide the base api url and the login url. By default, th
 
 # Uninstall
 ```bash
-quasar ext remove simple-auth
+quasar ext remove @gastiennelea/simple-auth
 ```
 
 # Info

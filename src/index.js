@@ -9,9 +9,9 @@
 let path = require('path')
 
 const extendWithComponent = (conf) => {
-  conf.boot.push('~quasar-app-extension-simple-auth/src/boot/index.js')
+  conf.boot.push('~@gastiennelea/quasar-app-extension-simple-auth/src/boot/index.js')
 
-  conf.build.transpileDependencies.push(/quasar-app-extension-simple-auth[\\/]src/)
+  conf.build.transpileDependencies.push(/@gastiennelea\/quasar-app-extension-simple-auth[\\/]src/)
 
   const requiredPlugins = ['Notify', 'Cookies'];
 

@@ -43,8 +43,8 @@ export default ({ app, router }) => {
     // Register auth helper
     var authHelper = {}
 
-    const API_URL = prompts['simple-auth'].apiUrl
-    const LOGIN_ROUTE = prompts['simple-auth'].loginRoute
+    const API_URL = prompts['@gastiennelea/simple-auth'].apiUrl
+    const LOGIN_ROUTE = prompts['@gastiennelea/simple-auth'].loginRoute
 
     authHelper.login = async (data) => {
         return axios.post(`${API_URL}${LOGIN_ROUTE}`, data)

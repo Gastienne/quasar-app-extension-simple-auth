@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
+    "@gastiennelea/quasar-app-extension-simple-auth": "file:C:/Users/ASUS/OneDrive/Bureau/Test/quasar-app-extension-simple-auth",
     "@quasar/app": "^3.0.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
-    "eslint-webpack-plugin": "^2.4.0",
-    "quasar-app-extension-simple-auth": "^0.0.1"
+    "eslint-webpack-plugin": "^2.4.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
