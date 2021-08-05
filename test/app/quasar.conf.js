@@ -78,7 +78,7 @@ module.exports = configure(function (ctx) {
       port: 8080,
       open: true, // opens browser window automatically
       watchFiles: [
-        'node_modules/quasar-app-extension-simple-auth/*'
+        'node_modules/@gastiennelea/quasar-app-extension-simple-auth/*'
       ]
     },
 
